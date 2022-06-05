@@ -43,8 +43,12 @@ int main()
     T << a11, a12, a13,
          a21, a22, a23,
          a31, a32, a33;
+    
+    cout << endl;
 
   cout << "Tensor =\n" << T << endl;
+    
+    cout << endl;
 
   cout << "Transpose of T =\n" << T.transpose() << endl;
 
